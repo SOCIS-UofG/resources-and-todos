@@ -47,7 +47,7 @@ In the root folder your will find the `.env.example` file, make a copy and name 
 
 Here you will need to generate your own variables for development.
 
-1. `NEXTAUTH_SECRET`: run `openssl rand -base64 -32` in your Git Bash
+1. `NEXTAUTH_SECRET`: run `openssl rand -base64 32` in your Git Bash
 
 2. For step two, you will need to have PostgreSQL installed. Install it, create a new server, a new database and new user.
 
