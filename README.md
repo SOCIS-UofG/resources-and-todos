@@ -68,6 +68,11 @@ POSTGRES_DATABASE="mydatabase"
 
 3. `BLOB_READ_WRITE_TOKEN`: This is the token to the Vercel storage and is only used in the sign-in screen.
 
+### Other Things You Need to Do For Initial Setup
+Run `npx prisma generate`
+
+## Running the app
+`npm run dev`
 
 # Some To-dos
 Some to-dos. These were last updated May 2024.
